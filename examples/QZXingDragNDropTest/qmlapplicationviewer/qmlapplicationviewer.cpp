@@ -14,7 +14,8 @@
 #include <QFileInfo>
 #include <QApplication>
 #include <QDeclarativeComponent>
-#include <QDeclarativeEngine>
+#include <QQuickView>
+#include <QQmlEngine>
 #include <QDeclarativeContext>
 
 #include <qplatformdefs.h> // MEEGO_EDITION_HARMATTAN
@@ -78,11 +79,10 @@ QString QmlApplicationViewerPrivate::adjustPath(const QString &path)
 }
 
 QmlApplicationViewer::QmlApplicationViewer(QWidget *parent)
-    : QDeclarativeView(parent)
-    , d(new QmlApplicationViewerPrivate())
+    : QQuickView(parent), d(new QmlApplicationViewerPrivate())
 {
     connect(engine(), SIGNAL(quit()), SLOT(close()));
-    setResizeMode(QDeclarativeView::SizeRootObjectToView);
+    setResizeMode(QQuickView::SizeRootObjectToView);
 
     // Qt versions prior to 4.8.0 don't have QML/JS debugging services built in
 #if defined(QMLJSDEBUGGER) && QT_VERSION < 0x040800
@@ -90,7 +90,7 @@ QmlApplicationViewer::QmlApplicationViewer(QWidget *parent)
     new QmlJSDebugger::JSDebuggerAgent(engine());
 #endif
 #if !defined(NO_QMLOBSERVER)
-    new QmlJSDebugger::QDeclarativeViewObserver(this, this);
+    new QmlJSDebugger::QQuickViewObserver(this, this);
 #endif
 #endif
 }

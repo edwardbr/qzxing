@@ -2,7 +2,7 @@
 #if (QT_VERSION < QT_VERSION_CHECK(5,0,0))
 #include <QtGui/QApplication>
 #include "qmlapplicationviewer.h"
-#include <QDeclarativeEngine>
+#include <QQmlEngine>
 #include <QDeclarativeContext>
 #include <qdeclarative.h>
 #else
