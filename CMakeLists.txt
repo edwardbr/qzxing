@@ -2,8 +2,22 @@
 
 cmake_minimum_required(VERSION 3.13)
 
-
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 set(CMAKE_VERBOSE_MAKEFILE ON)
+
+include(HunterGate)
+
+message(STATUS "[project] CMAKE_TOOLCHAIN_FILE: ${CMAKE_TOOLCHAIN_FILE}")
+
+option(HUNTER_STATUS_DEBUG "Hunter debug info" ON)
+#option(HUNTER_CONFIGURATION_TYPES "Hunter HUNTER_CONFIGURATION_TYPES" Debug)
+HunterGate(
+    URL "https://github.com/ruslo/hunter/archive/v0.23.214.tar.gz"
+    SHA1 "e14bc153a7f16d6a5eeec845fb0283c8fad8c358"
+    LOCAL
+)
+
+set(HUNTER_KEEP_PACKAGE_SOURCES ON)
 
 project(qzxing VERSION 0.1)
 
@@ -14,16 +28,15 @@ set(CMAKE_AUTORCC ON)
 include(CTest)
 
 
-set(Qt5Core_DIR "${QT_CMAKE}/Qt5Core")
-set(Qt5Gui_DIR "${QT_CMAKE}/Qt5Gui")
-set(Qt5_DIR "${QT_CMAKE}/Qt5")
-set(Qt5Network_DIR "${QT_CMAKE}/Qt5Network")
-set(Qt5Qml_DIR "${QT_CMAKE}/Qt5Qml")
-set(Qt5Quick_DIR "${QT_CMAKE}/Qt5Quick")
-set(Qt5Widgets_DIR "${QT_CMAKE}/Qt5Widgets")
-set(Qt5Multimedia_DIR "${QT_CMAKE}/Qt5Multimedia")
+hunter_add_package(Qt)
+hunter_add_package(Qt COMPONENTS qtmultimedia)
+hunter_add_package(Qt COMPONENTS qtdeclarative)
 
-find_package(Qt5 COMPONENTS Core Gui Quick Multimedia Widgets REQUIRED)
+find_package(Qt5Core REQUIRED)
+find_package(Qt5Gui REQUIRED)
+find_package(Qt5Widgets REQUIRED)
+find_package(Qt5Quick REQUIRED)
+find_package(Qt5Multimedia REQUIRED)
 
 set(headers 
         src/QZXing.h
