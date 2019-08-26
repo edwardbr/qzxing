@@ -1,5 +1,5 @@
 #include "QRCodeTests.h"
-#include "zxing/qrcode/encoder/QRCode.h"
+#include <zxing/qrcode/encoder/QRCode.h>
 
 namespace zxing{
 namespace qrcode{

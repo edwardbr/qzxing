@@ -2,10 +2,10 @@
 #define ENCODER_H
 
 #include <vector>
-#include "zxing/common/CharacterSetECI.h"
-#include "zxing/qrcode/ErrorCorrectionLevel.h"
-#include "zxing/qrcode/encoder/QRCode.h"
-#include "zxing/EncodeHint.h"
+#include <zxing/common/CharacterSetECI.h>
+#include <zxing/qrcode/ErrorCorrectionLevel.h>
+#include <zxing/qrcode/encoder/QRCode.h>
+#include <zxing/EncodeHint.h>
 
 #include <vector>
 #include <string>

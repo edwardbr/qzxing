@@ -1,6 +1,6 @@
 #include "AbstractRSSReader.h"
 
-#include "zxing/common/detector/MathUtils.h"
+#include <zxing/common/detector/MathUtils.h>
 
 namespace zxing {
 namespace oned {

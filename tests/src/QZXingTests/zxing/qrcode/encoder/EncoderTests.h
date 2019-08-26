@@ -2,7 +2,7 @@
 #define ENCODERTESTS_H
 
 #include "TestCase.h"
-#include "zxing/qrcode/encoder/Encoder.h"
+#include <zxing/qrcode/encoder/Encoder.h>
 
 namespace zxing{
 namespace qrcode{

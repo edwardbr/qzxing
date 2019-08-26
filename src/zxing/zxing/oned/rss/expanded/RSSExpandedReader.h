@@ -34,9 +34,9 @@
 #include "BitArrayBuilder.h"
 #include "decoders/AbstractExpandedDecoder.h"
 
-#include "zxing/oned/rss/AbstractRSSReader.h"
-#include "zxing/common/detector/MathUtils.h"
-#include "zxing/oned/rss/RSSUtils.h"
+#include <zxing/oned/rss/AbstractRSSReader.h>
+#include <zxing/common/detector/MathUtils.h>
+#include <zxing/oned/rss/RSSUtils.h>
 
 #include <vector>
 #include <algorithm>

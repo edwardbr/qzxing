@@ -28,10 +28,10 @@
  *   http://www.piramidepse.com/
  */
 
-#include "zxing/common/Counted.h"
-#include "zxing/common/BitArray.h"
-#include "zxing/common/Str.h"
-#include "zxing/IllegalStateException.h"
+#include <zxing/common/Counted.h>
+#include <zxing/common/BitArray.h>
+#include <zxing/common/Str.h>
+#include <zxing/IllegalStateException.h>
 #include "CurrentParsingState.h"
 #include "DecodedInformation.h"
 #include "DecodedNumeric.h"

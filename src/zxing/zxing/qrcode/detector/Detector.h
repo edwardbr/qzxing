@@ -21,13 +21,13 @@
  * limitations under the License.
  */
 
-#include "zxing/common/Counted.h"
-#include "zxing/common/DetectorResult.h"
-#include "zxing/common/BitMatrix.h"
-#include "zxing/qrcode/detector/AlignmentPattern.h"
-#include "zxing/common/PerspectiveTransform.h"
-#include "zxing/ResultPointCallback.h"
-#include "zxing/qrcode/detector/FinderPatternInfo.h"
+#include <zxing/common/Counted.h>
+#include <zxing/common/DetectorResult.h>
+#include <zxing/common/BitMatrix.h>
+#include <zxing/qrcode/detector/AlignmentPattern.h>
+#include <zxing/common/PerspectiveTransform.h>
+#include <zxing/ResultPointCallback.h>
+#include <zxing/qrcode/detector/FinderPatternInfo.h>
 
 namespace zxing {
 

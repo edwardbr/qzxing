@@ -6,7 +6,7 @@
 #include <vector>
 #include <map>
 #include <QMap>
-#include "zxing/Exception.h"
+#include <zxing/Exception.h>
 #include <QtGlobal>
 #include <TestCase.h>
 

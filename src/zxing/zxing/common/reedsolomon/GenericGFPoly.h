@@ -23,8 +23,8 @@
 #define GENERICGFPOLY_H
 
 #include <vector>
-#include "zxing/common/Array.h"
-#include "zxing/common/Counted.h"
+#include <zxing/common/Array.h>
+#include <zxing/common/Counted.h>
 
 namespace zxing {
 

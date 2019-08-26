@@ -1,7 +1,7 @@
 #ifndef UNSUPPORTEDENCODINGEXCEPTION_H
 #define UNSUPPORTEDENCODINGEXCEPTION_H
 
-#include "zxing/Exception.h"
+#include <zxing/Exception.h>
 
 namespace zxing {
 

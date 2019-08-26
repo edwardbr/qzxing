@@ -2,7 +2,7 @@
 #define ENCODEHINTTYPE_H
 
 #include <string>
-#include "zxing/qrcode/ErrorCorrectionLevel.h"
+#include <zxing/qrcode/ErrorCorrectionLevel.h>
 
 namespace zxing {
 

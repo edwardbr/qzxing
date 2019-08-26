@@ -29,9 +29,9 @@
  *   http://www.piramidepse.com/
  */
 
-#include "zxing/FormatException.h"
-#include "zxing/NotFoundException.h"
-#include "zxing/common/BitArray.h"
+#include <zxing/FormatException.h>
+#include <zxing/NotFoundException.h>
+#include <zxing/common/BitArray.h>
 #include "AbstractExpandedDecoder.h"
 
 namespace zxing {

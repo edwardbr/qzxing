@@ -21,8 +21,8 @@
  * limitations under the License.
  */
 
-#include "zxing/Reader.h"
-#include "zxing/DecodeHints.h"
+#include <zxing/Reader.h>
+#include <zxing/DecodeHints.h>
 
 namespace zxing {
 namespace oned {

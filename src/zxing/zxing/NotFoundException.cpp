@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "zxing/NotFoundException.h"
+#include <zxing/NotFoundException.h>
 
 zxing::NotFoundException::NotFoundException()  ZXING_NOEXCEPT {
 }

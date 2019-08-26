@@ -1,7 +1,7 @@
 #include "EncodeValidator.h"
-#include "zxing/qrcode/encoder/QRCode.h"
-#include "zxing/qrcode/encoder/ByteMatrix.h"
-#include "zxing/qrcode/encoder/Encoder.h"
+#include <zxing/qrcode/encoder/QRCode.h>
+#include <zxing/qrcode/encoder/ByteMatrix.h>
+#include <zxing/qrcode/encoder/Encoder.h>
 #include "TestCase.h"
 #include "zxing/qrcode/encoder/MatrixUtilTests.h"
 #include "zxing/qrcode/encoder/MaskUtilTests.h"

@@ -20,8 +20,8 @@
  * limitations under the License.
  */
 
-#include "zxing/ReaderException.h"
-#include "zxing/common/Counted.h"
+#include <zxing/ReaderException.h>
+#include <zxing/common/Counted.h>
 
 namespace zxing {
 namespace qrcode {

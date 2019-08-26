@@ -21,13 +21,13 @@
  */
 
 #include <string>
-#include "zxing/common/Array.h"
-#include "zxing/common/Counted.h"
-#include "zxing/common/Str.h"
-#include "zxing/common/Types.h"
-#include "zxing/ResultPoint.h"
-#include "zxing/ResultMetadata.h"
-#include "zxing/BarcodeFormat.h"
+#include <zxing/common/Array.h>
+#include <zxing/common/Counted.h>
+#include <zxing/common/Str.h>
+#include <zxing/common/Types.h>
+#include <zxing/ResultPoint.h>
+#include <zxing/ResultMetadata.h>
+#include <zxing/BarcodeFormat.h>
 
 namespace zxing {
 

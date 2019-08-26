@@ -21,7 +21,7 @@
  * limitations under the License.
  */
 
-#include "zxing/Exception.h"
+#include <zxing/Exception.h>
 
 namespace zxing {
 

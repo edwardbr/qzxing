@@ -2,8 +2,8 @@
 #define BITARRAYTESTS_H
 
 #include "TestCase.h"
-#include "zxing/common/BitArray.h"
-#include "zxing/common/Types.h"
+#include <zxing/common/BitArray.h>
+#include <zxing/common/Types.h>
 #include <vector>
 
 namespace zxing{

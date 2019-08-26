@@ -19,9 +19,9 @@
  * 2019-07-17 translation from Java into C++
  */
 
-#include "zxing/NotFoundException.h"
-#include "zxing/common/detector/MathUtils.h"
-#include "zxing/oned/OneDReader.h"
+#include <zxing/NotFoundException.h>
+#include <zxing/common/detector/MathUtils.h>
+#include <zxing/oned/OneDReader.h>
 
 #include <vector>
 

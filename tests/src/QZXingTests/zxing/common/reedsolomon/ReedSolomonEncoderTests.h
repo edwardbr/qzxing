@@ -2,7 +2,7 @@
 #define REEDSOLOMONENCODERTESTS_H
 
 #include "TestCase.h"
-#include "zxing/common/reedsolomon/GenericGF.h"
+#include <zxing/common/reedsolomon/GenericGF.h>
 
 namespace zxing{
 namespace tests{

@@ -31,7 +31,7 @@
 
 #include "DecodedObject.h"
 
-#include "zxing/FormatException.h"
+#include <zxing/FormatException.h>
 
 namespace zxing {
 

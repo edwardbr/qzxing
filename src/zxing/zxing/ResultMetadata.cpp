@@ -16,8 +16,8 @@
 * 2019-05-08 translation from Java into C++
 */
 
-#include "zxing/ResultMetadata.h"
-#include "zxing/common/ByteArray.h"
+#include <zxing/ResultMetadata.h>
+#include <zxing/common/ByteArray.h>
 
 namespace zxing {
 

@@ -1,8 +1,8 @@
 #include "AI01393xDecoder.h"
 
 #include "DecodedInformation.h"
-#include "zxing/FormatException.h"
-#include "zxing/NotFoundException.h"
+#include <zxing/FormatException.h>
+#include <zxing/NotFoundException.h>
 
 namespace zxing {
 namespace oned {

@@ -24,8 +24,8 @@
  * @author Sean Owen
  */
 
-#include "zxing/oned/EANManufacturerOrgSupport.h"
-#include "zxing/common/Str.h"
+#include <zxing/oned/EANManufacturerOrgSupport.h>
+#include <zxing/common/Str.h>
 
 #include <cstdlib>
 

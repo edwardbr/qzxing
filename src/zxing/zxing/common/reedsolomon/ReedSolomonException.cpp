@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-#include "zxing/common/reedsolomon/ReedSolomonException.h"
+#include <zxing/common/reedsolomon/ReedSolomonException.h>
 
 namespace zxing {
 ReedSolomonException::ReedSolomonException(const char *msg) ZXING_NOEXCEPT :

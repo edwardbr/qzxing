@@ -19,7 +19,7 @@
  * 2019-07-17 translation from Java into C++
  */
 
-#include "zxing/common/Str.h"
+#include <zxing/common/Str.h>
 
 namespace zxing {
 

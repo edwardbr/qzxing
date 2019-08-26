@@ -30,8 +30,8 @@
  */
 
 #include "AI01decoder.h"
-#include "zxing/common/BitArray.h"
-#include "zxing/common/Str.h"
+#include <zxing/common/BitArray.h>
+#include <zxing/common/Str.h>
 
 namespace zxing {
 

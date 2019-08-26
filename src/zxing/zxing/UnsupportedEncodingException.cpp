@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "zxing/UnsupportedEncodingException.h"
+#include <zxing/UnsupportedEncodingException.h>
 
 zxing::UnsupportedEncodingException::UnsupportedEncodingException()  ZXING_NOEXCEPT {
 }

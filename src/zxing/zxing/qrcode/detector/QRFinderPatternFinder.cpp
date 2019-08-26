@@ -20,9 +20,9 @@
  */
 
 #include <algorithm>
-#include "zxing/qrcode/detector/FinderPatternFinder.h"
-#include "zxing/ReaderException.h"
-#include "zxing/DecodeHints.h"
+#include <zxing/qrcode/detector/FinderPatternFinder.h>
+#include <zxing/ReaderException.h>
+#include <zxing/DecodeHints.h>
 #include <cstring>
 
 //#include <limits>

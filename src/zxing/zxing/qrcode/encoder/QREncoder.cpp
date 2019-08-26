@@ -1,10 +1,10 @@
 #include "Encoder.h"
 #include "MaskUtil.h"
 
-#include "zxing/common/CharacterSetECI.h"
-#include "zxing/UnsupportedEncodingException.h"
-#include "zxing/WriterException.h"
-#include "zxing/common/reedsolomon/ReedSolomonEncoder.h"
+#include <zxing/common/CharacterSetECI.h>
+#include <zxing/UnsupportedEncodingException.h>
+#include <zxing/WriterException.h>
+#include <zxing/common/reedsolomon/ReedSolomonEncoder.h>
 #include "BlockPair.h"
 #include <QList>
 #include <math.h>

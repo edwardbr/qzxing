@@ -30,7 +30,7 @@
  */
 
 #include "DecodedObject.h"
-#include "zxing/common/Str.h"
+#include <zxing/common/Str.h>
 
 namespace zxing {
 

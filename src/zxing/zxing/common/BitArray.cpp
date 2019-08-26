@@ -15,8 +15,8 @@
  * limitations under the License.
  */
 
-#include "zxing/common/BitArray.h"
-#include "zxing/common/Array.h"
+#include <zxing/common/BitArray.h>
+#include <zxing/common/Array.h>
 #include <cstring>
 #include <sstream>
 

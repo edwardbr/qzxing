@@ -19,8 +19,8 @@
  * limitations under the License.
  */
 
-#include "zxing/qrcode/QRCodeReader.h"
-#include "zxing/qrcode/detector/Detector.h"
+#include <zxing/qrcode/QRCodeReader.h>
+#include <zxing/qrcode/detector/Detector.h>
 
 #include <iostream>
 

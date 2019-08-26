@@ -18,8 +18,8 @@
  * limitations under the License.
  */
 
-#include "zxing/DecodeHints.h"
-#include "zxing/common/IllegalArgumentException.h"
+#include <zxing/DecodeHints.h>
+#include <zxing/common/IllegalArgumentException.h>
 #include <qglobal.h>
 #include <iterator>
 

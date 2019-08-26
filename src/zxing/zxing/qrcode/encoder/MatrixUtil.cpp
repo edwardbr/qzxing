@@ -1,6 +1,6 @@
 #include "MatrixUtil.h"
 #include "MaskUtil.h"
-#include "zxing/WriterException.h"
+#include <zxing/WriterException.h>
 #include "QRCode.h"
 
 namespace zxing {

@@ -30,8 +30,8 @@
  */
 
 #include "AI01weightDecoder.h"
-#include "zxing/NotFoundException.h"
-#include "zxing/common/BitArray.h"
+#include <zxing/NotFoundException.h>
+#include <zxing/common/BitArray.h>
 
 namespace zxing {
 
