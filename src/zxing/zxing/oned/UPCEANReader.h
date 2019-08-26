@@ -18,11 +18,11 @@
  * limitations under the License.
  */
 
-#include <zxing/oned/OneDReader.h>
-#include <zxing/oned/UPCEANExtensionSupport.h>
-#include <zxing/oned/EANManufacturerOrgSupport.h>
-#include <zxing/common/BitArray.h>
-#include <zxing/Result.h>
+#include "zxing/oned/OneDReader.h"
+#include "zxing/oned/UPCEANExtensionSupport.h"
+#include "zxing/oned/EANManufacturerOrgSupport.h"
+#include "zxing/common/BitArray.h"
+#include "zxing/Result.h"
 
 namespace zxing {
 namespace oned {

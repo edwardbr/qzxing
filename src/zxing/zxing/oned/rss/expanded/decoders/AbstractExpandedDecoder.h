@@ -31,10 +31,10 @@
 
 #include "GeneralAppIdDecoder.h"
 
-#include <zxing/FormatException.h>
-#include <zxing/NotFoundException.h>
-#include <zxing/IllegalStateException.h>
-#include <zxing/common/Str.h>
+#include "zxing/FormatException.h"
+#include "zxing/NotFoundException.h"
+#include "zxing/IllegalStateException.h"
+#include "zxing/common/Str.h"
 
 namespace zxing {
 

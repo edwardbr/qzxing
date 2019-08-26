@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-#include <zxing/ZXing.h>
-#include <zxing/oned/CodaBarReader.h>
-#include <zxing/oned/OneDResultPoint.h>
-#include <zxing/common/Array.h>
-#include <zxing/ReaderException.h>
-#include <zxing/NotFoundException.h>
-#include <zxing/FormatException.h>
-#include <zxing/ChecksumException.h>
+#include "zxing/ZXing.h"
+#include "zxing/oned/CodaBarReader.h"
+#include "zxing/oned/OneDResultPoint.h"
+#include "zxing/common/Array.h"
+#include "zxing/ReaderException.h"
+#include "zxing/NotFoundException.h"
+#include "zxing/FormatException.h"
+#include "zxing/ChecksumException.h"
 #include <math.h>
 #include <sstream>
 

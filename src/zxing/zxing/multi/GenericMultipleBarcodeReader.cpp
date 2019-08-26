@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-#include <zxing/multi/GenericMultipleBarcodeReader.h>
-#include <zxing/ReaderException.h>
-#include <zxing/ResultPoint.h>
+#include "zxing/multi/GenericMultipleBarcodeReader.h"
+#include "zxing/ReaderException.h"
+#include "zxing/ResultPoint.h"
 
 using std::vector;
 using zxing::Ref;

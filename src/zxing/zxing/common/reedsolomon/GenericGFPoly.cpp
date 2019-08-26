@@ -20,9 +20,9 @@
  */
 
 #include <iostream>
-#include <zxing/common/reedsolomon/GenericGFPoly.h>
-#include <zxing/common/reedsolomon/GenericGF.h>
-#include <zxing/common/IllegalArgumentException.h>
+#include "zxing/common/reedsolomon/GenericGFPoly.h"
+#include "zxing/common/reedsolomon/GenericGF.h"
+#include "zxing/common/IllegalArgumentException.h"
 
 using zxing::GenericGFPoly;
 using zxing::ArrayRef;

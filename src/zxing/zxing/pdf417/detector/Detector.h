@@ -20,11 +20,11 @@
  * limitations under the License.
  */
 
-#include <zxing/common/Point.h>
-#include <zxing/common/DetectorResult.h>
-#include <zxing/NotFoundException.h>
-#include <zxing/BinaryBitmap.h>
-#include <zxing/DecodeHints.h>
+#include "zxing/common/Point.h"
+#include "zxing/common/DetectorResult.h"
+#include "zxing/NotFoundException.h"
+#include "zxing/BinaryBitmap.h"
+#include "zxing/DecodeHints.h"
 
 namespace zxing {
 namespace pdf417 {

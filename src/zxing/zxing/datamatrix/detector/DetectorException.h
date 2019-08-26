@@ -8,7 +8,7 @@
 #ifndef DETECTOREXCEPTION_H_
 #define DETECTOREXCEPTION_H_
 
-#include <zxing/Exception.h>
+#include "zxing/Exception.h"
 
 namespace zxing {
 namespace datamatrix {

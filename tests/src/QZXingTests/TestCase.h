@@ -2,9 +2,9 @@
 #define TESTCASE_H
 
 #include <QZXing.h>
-#include <zxing/Exception.h>
+#include "zxing/Exception.h"
 #include <QtGlobal>
-#include <zxing/qrcode/decoder/Mode.h>
+#include "zxing/qrcode/decoder/Mode.h"
 #include "backward.hpp"
 #include <QDebug>
 #include <QStringList>

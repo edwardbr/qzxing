@@ -6,10 +6,10 @@
 #include <vector>
 #include <map>
 #include <QMap>
-#include <zxing/Exception.h>
+#include "zxing/Exception.h"
 #include <QtGlobal>
 #include <TestCase.h>
-#include <zxing/qrcode/decoder/Mode.h>
+#include "zxing/qrcode/decoder/Mode.h"
 #include <QWaitCondition>
 #include <QMutex>
 #include <QVector>

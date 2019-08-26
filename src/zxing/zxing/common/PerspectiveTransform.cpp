@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-#include <zxing/common/PerspectiveTransform.h>
+#include "zxing/common/PerspectiveTransform.h"
 
 namespace zxing {
 using namespace std;

@@ -31,7 +31,7 @@
 
 #include "AI01decoder.h"
 
-#include <zxing/common/BitArray.h>
+#include "zxing/common/BitArray.h"
 
 namespace zxing {
 

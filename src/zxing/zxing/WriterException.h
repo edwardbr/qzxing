@@ -1,7 +1,7 @@
 #ifndef WRITEREXCEPTION_H
 #define WRITEREXCEPTION_H
 
-#include <zxing/Exception.h>
+#include "zxing/Exception.h"
 
 namespace zxing {
 

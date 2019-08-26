@@ -29,8 +29,8 @@
  *   http://www.piramidepse.com/
  */
 
-#include <zxing/common/Str.h>
-#include <zxing/NotFoundException.h>
+#include "zxing/common/Str.h"
+#include "zxing/NotFoundException.h"
 
 #include <string>
 

@@ -16,12 +16,12 @@
 * 2019-05-08 translation from Java into C++
 */
 
-#include <zxing/oned/UPCEANExtension2Support.h>
-#include <zxing/oned/UPCEANReader.h>
-#include <zxing/oned/OneDResultPoint.h>
-#include <zxing/common/BitArray.h>
-#include <zxing/Result.h>
-#include <zxing/NotFoundException.h>
+#include "zxing/oned/UPCEANExtension2Support.h"
+#include "zxing/oned/UPCEANReader.h"
+#include "zxing/oned/OneDResultPoint.h"
+#include "zxing/common/BitArray.h"
+#include "zxing/Result.h"
+#include "zxing/NotFoundException.h"
 
 #include <sstream>
 #include <iomanip>

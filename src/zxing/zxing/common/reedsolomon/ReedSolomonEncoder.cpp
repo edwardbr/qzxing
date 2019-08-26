@@ -1,6 +1,6 @@
 #include "ReedSolomonEncoder.h"
 
-#include <zxing/Exception.h>
+#include "zxing/Exception.h"
 #include <stdio.h>
 #include <string.h>
 

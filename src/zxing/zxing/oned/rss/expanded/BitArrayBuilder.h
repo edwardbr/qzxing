@@ -29,7 +29,7 @@
  *   http://www.piramidepse.com/
  */
 
-#include <zxing/common/BitArray.h>
+#include "zxing/common/BitArray.h"
 #include "ExpandedPair.h"
 
 #include <vector>

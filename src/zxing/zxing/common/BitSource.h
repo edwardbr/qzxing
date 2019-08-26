@@ -20,8 +20,8 @@
  * limitations under the License.
  */
 
-#include <zxing/common/Array.h>
-#include <zxing/common/Types.h>
+#include "zxing/common/Array.h"
+#include "zxing/common/Types.h"
 
 namespace zxing {
 /**

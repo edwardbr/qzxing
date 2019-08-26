@@ -1,11 +1,11 @@
 #ifndef QRCODE_H
 #define QRCODE_H
 
-#include <zxing/qrcode/decoder/Mode.h>
-#include <zxing/qrcode/Version.h>
-#include <zxing/qrcode/ErrorCorrectionLevel.h>
+#include "zxing/qrcode/decoder/Mode.h"
+#include "zxing/qrcode/Version.h"
+#include "zxing/qrcode/ErrorCorrectionLevel.h"
 #include "ByteMatrix.h"
-#include <zxing/common/Counted.h>
+#include "zxing/common/Counted.h"
 #include <string>
 
 namespace zxing {

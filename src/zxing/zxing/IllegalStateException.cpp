@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include <zxing/IllegalStateException.h>
+#include "zxing/IllegalStateException.h"
 
 zxing::IllegalStateException::IllegalStateException()  ZXING_NOEXCEPT {
 }

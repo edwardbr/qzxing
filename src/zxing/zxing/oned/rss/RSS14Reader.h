@@ -23,7 +23,7 @@
 #include "Pair.h"
 #include "RSSUtils.h"
 
-#include <zxing/common/detector/MathUtils.h>
+#include "zxing/common/detector/MathUtils.h"
 #include <vector>
 
 namespace zxing {

@@ -8,9 +8,9 @@
 //import com.google.zxing.qrcode.decoder.Version;
 
 #include "ByteMatrix.h"
-#include <zxing/common/BitArray.h>
-#include <zxing/qrcode/ErrorCorrectionLevel.h>
-#include <zxing/qrcode/Version.h>
+#include "zxing/common/BitArray.h"
+#include "zxing/qrcode/ErrorCorrectionLevel.h"
+#include "zxing/qrcode/Version.h"
 
 namespace zxing {
 namespace qrcode {

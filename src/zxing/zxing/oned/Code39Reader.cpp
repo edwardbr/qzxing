@@ -16,11 +16,11 @@
  */
 
 #include "Code39Reader.h"
-#include <zxing/oned/OneDResultPoint.h>
-#include <zxing/common/Array.h>
-#include <zxing/ReaderException.h>
-#include <zxing/NotFoundException.h>
-#include <zxing/ChecksumException.h>
+#include "zxing/oned/OneDResultPoint.h"
+#include "zxing/common/Array.h"
+#include "zxing/ReaderException.h"
+#include "zxing/NotFoundException.h"
+#include "zxing/ChecksumException.h"
 #include <math.h>
 #include <limits.h>
 #include <algorithm>

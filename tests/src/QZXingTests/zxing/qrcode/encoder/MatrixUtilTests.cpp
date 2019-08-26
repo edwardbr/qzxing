@@ -1,7 +1,7 @@
 #include "MatrixUtilTests.h"
 
-#include <zxing/qrcode/encoder/MatrixUtil.h>
-#include <zxing/qrcode/encoder/ByteMatrix.h>
+#include "zxing/qrcode/encoder/MatrixUtil.h"
+#include "zxing/qrcode/encoder/ByteMatrix.h"
 
 namespace zxing{
 namespace qrcode{

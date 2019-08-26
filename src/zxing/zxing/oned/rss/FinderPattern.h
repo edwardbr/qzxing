@@ -19,8 +19,8 @@
  * 2019-07-17 translation from Java into C++
  */
 
-#include <zxing/oned/OneDResultPoint.h>
-#include <zxing/common/Array.h>
+#include "zxing/oned/OneDResultPoint.h"
+#include "zxing/common/Array.h"
 
 #include <vector>
 

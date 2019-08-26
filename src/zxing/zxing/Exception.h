@@ -21,7 +21,7 @@
  * limitations under the License.
  */
 
-#include <zxing/ZXing.h>
+#include "zxing/ZXing.h"
 
 #include <string>
 #include <exception>

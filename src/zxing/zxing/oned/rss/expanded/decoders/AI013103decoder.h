@@ -29,7 +29,7 @@
  *   http://www.piramidepse.com/
  */
 #include "AI013x0xDecoder.h"
-#include <zxing/common/BitArray.h>
+#include "zxing/common/BitArray.h"
 
 namespace zxing {
 

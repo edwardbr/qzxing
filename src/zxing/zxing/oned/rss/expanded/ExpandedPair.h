@@ -29,9 +29,9 @@
  *   http://www.piramidepse.com/
  */
 
-#include <zxing/oned/rss/FinderPattern.h>
-#include <zxing/oned/rss/DataCharacter.h>
-#include <zxing/common/Str.h>
+#include "zxing/oned/rss/FinderPattern.h"
+#include "zxing/oned/rss/DataCharacter.h"
+#include "zxing/common/Str.h"
 
 namespace zxing {
 

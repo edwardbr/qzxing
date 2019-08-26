@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-#include <zxing/ZXing.h>
-#include <zxing/MultiFormatReader.h>
-#include <zxing/qrcode/QRCodeReader.h>
-#include <zxing/datamatrix/DataMatrixReader.h>
-#include <zxing/aztec/AztecReader.h>
-#include <zxing/pdf417/PDF417Reader.h>
-#include <zxing/oned/MultiFormatUPCEANReader.h>
-#include <zxing/oned/MultiFormatOneDReader.h>
-#include <zxing/ReaderException.h>
+#include "zxing/ZXing.h"
+#include "zxing/MultiFormatReader.h"
+#include "zxing/qrcode/QRCodeReader.h"
+#include "zxing/datamatrix/DataMatrixReader.h"
+#include "zxing/aztec/AztecReader.h"
+#include "zxing/pdf417/PDF417Reader.h"
+#include "zxing/oned/MultiFormatUPCEANReader.h"
+#include "zxing/oned/MultiFormatOneDReader.h"
+#include "zxing/ReaderException.h"
 
 using zxing::Ref;
 using zxing::Result;

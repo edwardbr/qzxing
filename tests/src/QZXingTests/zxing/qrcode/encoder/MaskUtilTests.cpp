@@ -1,6 +1,6 @@
 #include "MaskUtilTests.h"
-#include <zxing/qrcode/encoder/ByteMatrix.h>
-#include <zxing/qrcode/encoder/MaskUtil.h>
+#include "zxing/qrcode/encoder/ByteMatrix.h"
+#include "zxing/qrcode/encoder/MaskUtil.h"
 
 namespace zxing{
 namespace qrcode{

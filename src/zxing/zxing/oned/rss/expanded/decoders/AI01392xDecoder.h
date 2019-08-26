@@ -31,9 +31,9 @@
 
 #include "AI01decoder.h"
 #include "DecodedInformation.h"
-#include <zxing/FormatException.h>
-#include <zxing/NotFoundException.h>
-#include <zxing/common/BitArray.h>
+#include "zxing/FormatException.h"
+#include "zxing/NotFoundException.h"
+#include "zxing/common/BitArray.h"
 
 namespace zxing {
 

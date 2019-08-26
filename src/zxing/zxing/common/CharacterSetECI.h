@@ -20,8 +20,8 @@
  */
 
 #include <map>
-#include <zxing/DecodeHints.h>
-#include <zxing/common/Counted.h>
+#include "zxing/DecodeHints.h"
+#include "zxing/common/Counted.h"
 #include <vector>
 
 namespace zxing {

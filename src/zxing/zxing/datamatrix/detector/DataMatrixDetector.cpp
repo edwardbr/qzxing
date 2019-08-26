@@ -20,11 +20,11 @@
  */
 
 #include <map>
-#include <zxing/ResultPoint.h>
-#include <zxing/common/GridSampler.h>
-#include <zxing/datamatrix/detector/Detector.h>
-#include <zxing/common/detector/MathUtils.h>
-#include <zxing/NotFoundException.h>
+#include "zxing/ResultPoint.h"
+#include "zxing/common/GridSampler.h"
+#include "zxing/datamatrix/detector/Detector.h"
+#include "zxing/common/detector/MathUtils.h"
+#include "zxing/NotFoundException.h"
 #include <sstream>
 #include <cstdlib>
 #include <algorithm>

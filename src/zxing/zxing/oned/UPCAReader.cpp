@@ -19,7 +19,7 @@
  */
 
 #include "UPCAReader.h"
-#include <zxing/ReaderException.h>
+#include "zxing/ReaderException.h"
 
 using zxing::oned::UPCAReader;
 using zxing::Ref;

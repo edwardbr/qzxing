@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-#include <zxing/common/IllegalArgumentException.h>
+#include "zxing/common/IllegalArgumentException.h"
 
 using zxing::IllegalArgumentException;
 

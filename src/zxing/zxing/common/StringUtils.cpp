@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
-#include <zxing/common/StringUtils.h>
-#include <zxing/DecodeHints.h>
+#include "zxing/common/StringUtils.h"
+#include "zxing/DecodeHints.h"
 #include <sstream>
 
 using namespace std;

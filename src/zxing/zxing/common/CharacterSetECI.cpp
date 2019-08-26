@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-#include <zxing/common/CharacterSetECI.h>
-#include <zxing/common/IllegalArgumentException.h>
-#include <zxing/FormatException.h>
+#include "zxing/common/CharacterSetECI.h"
+#include "zxing/common/IllegalArgumentException.h"
+#include "zxing/FormatException.h"
 #include <cstdlib>
 
 using std::string;
