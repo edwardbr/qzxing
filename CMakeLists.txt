@@ -441,8 +441,7 @@ install(
 )
 
 install(DIRECTORY src/ DESTINATION include/qzxing
-        FILES_MATCHING PATTERN "QZXing.h")
-
+        FILES_MATCHING PATTERN "*.h")
 
 install(
     FILES "${project_config}" "${version_config}"
