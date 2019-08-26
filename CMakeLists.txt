@@ -440,10 +440,9 @@ install(
     INCLUDES DESTINATION "${include_install_dir}"
 )
 
-install(
-    DIRECTORY include/
-    DESTINATION "${include_install_dir}"
-)
+install(DIRECTORY src/ DESTINATION include/qzxing
+        FILES_MATCHING PATTERN "QZXing.h")
+
 
 install(
     FILES "${project_config}" "${version_config}"
