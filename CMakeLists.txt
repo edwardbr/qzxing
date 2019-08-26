@@ -27,6 +27,19 @@ set(CMAKE_AUTORCC ON)
 
 include(CTest)
 
+if(EXISTS ${QT_CMAKE})
+set(Qt5Core_DIR "${QT_CMAKE}/Qt5Core")
+set(Qt5Gui_DIR "${QT_CMAKE}/Qt5Gui")
+set(Qt5_DIR "${QT_CMAKE}/Qt5")
+set(Qt5Network_DIR "${QT_CMAKE}/Qt5Network")
+set(Qt5Qml_DIR "${QT_CMAKE}/Qt5Qml")
+set(Qt5Quick_DIR "${QT_CMAKE}/Qt5Quick")
+set(Qt5Widgets_DIR "${QT_CMAKE}/Qt5Widgets")
+set(Qt5Multimedia_DIR "${QT_CMAKE}/Qt5Multimedia")
+
+find_package(Qt5 COMPONENTS Core Gui Quick Multimedia Widgets REQUIRED)
+
+else()
 
 hunter_add_package(Qt)
 hunter_add_package(Qt COMPONENTS qtmultimedia)
@@ -37,6 +50,8 @@ find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Quick REQUIRED)
 find_package(Qt5Multimedia REQUIRED)
+
+endif()
 
 set(headers 
         src/QZXing.h
