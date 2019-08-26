@@ -441,8 +441,9 @@ install(
 )
 
 install(DIRECTORY src/ DESTINATION include/qzxing
-        FILES_MATCHING PATTERN "*.h"
-        EXCLUDE zxing)
+        FILES_MATCHING
+            PATTERN "*.h"
+            PATTERN "zxing" EXCLUDE)
 
 
 install(DIRECTORY src/zxing DESTINATION include/qzxing
