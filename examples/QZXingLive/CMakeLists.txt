@@ -16,12 +16,7 @@ endif()
 file(GLOB_RECURSE _HDRS "*.hpp")
 file(GLOB_RECURSE _SRCS "*.cpp")
 
-add_executable(${PROJECT_NAME} ${_SRCS} ${RCC_SOURCES} ${_HDRS})
-
-target_compile_features(${PROJECT_NAME} 
-  PRIVATE
-    cxx_std_17
-)
+add_executable(${PROJECT_NAME} ${_SRCS} ${RCC_SOURCES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 
@@ -32,6 +27,7 @@ target_link_libraries(${PROJECT_NAME}
                           Qt5::Core 
                           Qt5::Quick 
                           Qt5::Multimedia
+                          zxing::zxing
                           qzxing
                     )
 

@@ -20,7 +20,7 @@ hunter_config(bigint
 
 hunter_config(zxing
     URL https://github.com/edwardbr/zxing/archive/master.tar.gz
-    SHA1 c8b47c85bd37157e5bebd33fcf22a468a7919648
+    SHA1 f343bb34b00e723eb28a4b8d115b5b646a7ae449
     CMAKE_ARGS
         ANDROID_STL=${ANDROID_STL}
         ANDROID_ABI=${ANDROID_ABI}

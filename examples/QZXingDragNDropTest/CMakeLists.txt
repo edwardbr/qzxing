@@ -16,7 +16,7 @@ endif()
 file(GLOB_RECURSE _HDRS "*.hpp")
 file(GLOB_RECURSE _SRCS "*.cpp")
 
-add_executable(${PROJECT_NAME} ${_SRCS} ${RCC_SOURCES} ${_HDRS})
+add_executable(${PROJECT_NAME} ${_SRCS} ${RCC_SOURCES})
 
 target_compile_features(${PROJECT_NAME} 
   PRIVATE

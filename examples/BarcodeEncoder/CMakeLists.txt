@@ -18,11 +18,6 @@ file(GLOB_RECURSE _SRCS "*.cpp")
 
 add_executable(${PROJECT_NAME} ${_SRCS} ${RCC_SOURCES} ${_HDRS})
 
-target_compile_features(${PROJECT_NAME} 
-  PRIVATE
-    cxx_std_17
-)
-
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
@@ -32,6 +27,7 @@ target_link_libraries(${PROJECT_NAME}
                           Qt5::Core 
                           Qt5::Quick 
                           Qt5::Multimedia
+                          zxing::zxing
                           qzxing
                     )
 

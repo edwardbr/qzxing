@@ -135,9 +135,5 @@ configure_package_config_file(
     "${project_config}"
     INSTALL_DESTINATION "${config_install_dir}"
 )
-
-
-#install(FILES ${pc_config} DESTINATION lib/pkgconfig)
-#install(FILES ${la_config} DESTINATION lib)
-
+ 
 add_subdirectory(examples)
