@@ -137,6 +137,32 @@ configure_package_config_file(
 )
  
 
+install(
+    TARGETS ${PROJECT_NAME}
+    EXPORT "${TARGETS_EXPORT_NAME}"
+    LIBRARY DESTINATION "lib"
+    ARCHIVE DESTINATION "lib"
+    RUNTIME DESTINATION "bin"
+    INCLUDES DESTINATION "${include_install_dir}"
+)
+
+install(
+    DIRECTORY src
+    DESTINATION "${include_install_dir}"
+    FILES_MATCHING PATTERN "*.h*"
+)
+
+install(
+    FILES "${project_config}" "${version_config}"
+    DESTINATION "${config_install_dir}"
+)
+
+install(
+    EXPORT "${TARGETS_EXPORT_NAME}"
+    NAMESPACE "${namespace}"
+    DESTINATION "${config_install_dir}"
+)
+
 option(BUILD_EXAMPLES "Build examples" OFF)
 if(${BUILD_EXAMPLES})
 add_subdirectory(examples)
