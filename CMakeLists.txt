@@ -146,13 +146,13 @@ install(
     INCLUDES DESTINATION "${include_install_dir}"
 )
 
-#install(
-#    DIRECTORY src/
-#    DESTINATION "${include_install_dir}/${PROJECT_NAME}"
-#    FILES_MATCHING PATTERN "*.h"
-#)
+install(
+    DIRECTORY src/
+    DESTINATION "${include_install_dir}/${PROJECT_NAME}"
+    FILES_MATCHING PATTERN "*.h"
+)
 
-install(FILES "${headers}" DESTINATION "${include_install_dir}/${PROJECT_NAME}")
+#install(FILES "${headers}" DESTINATION "${include_install_dir}/${PROJECT_NAME}")
 
 install(
     FILES "${project_config}" "${version_config}"
