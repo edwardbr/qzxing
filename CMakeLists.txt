@@ -76,7 +76,7 @@ set(source
 add_library( ${PROJECT_NAME} ${source} ${headers} )
 
 
-target_include_directories(${PROJECT_NAME} PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src> $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src/zxing>)
+target_include_directories(${PROJECT_NAME} PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>)
 
 #target_compile_features(${PROJECT_NAME} 
 #  PRIVATE
