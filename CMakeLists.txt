@@ -147,9 +147,9 @@ install(
 )
 
 install(
-    DIRECTORY src
-    DESTINATION "${include_install_dir}"
-    FILES_MATCHING PATTERN "*.h*"
+    DIRECTORY src/
+    DESTINATION "${include_install_dir}/${PROJECT_NAME}"
+    FILES_MATCHING PATTERN "*.h"
 )
 
 install(
