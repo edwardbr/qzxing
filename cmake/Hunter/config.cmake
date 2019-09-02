@@ -5,3 +5,26 @@ hunter_config(Qt VERSION "5.12.3"
         ANDROID_PLATFORM=${ANDROID_PLATFORM}
         CMAKE_ANDROID_ARCH=${CMAKE_ANDROID_ARCH}
     )
+
+        
+hunter_config(bigint
+    URL https://github.com/edwardbr/bigint/archive/master.tar.gz
+    SHA1 7b7af0a373c42bc3a0537e7af673892af31bec12
+    CMAKE_ARGS
+        ANDROID_STL=${ANDROID_STL}
+        ANDROID_ABI=${ANDROID_ABI}
+        ANDROID_PLATFORM=${ANDROID_PLATFORM}
+        CMAKE_ANDROID_ARCH=${CMAKE_ANDROID_ARCH}
+        QT_CMAKE=${QT_CMAKE}
+        )
+
+hunter_config(zxing
+    URL https://github.com/edwardbr/zxing/archive/master.tar.gz
+    SHA1 c8b47c85bd37157e5bebd33fcf22a468a7919648
+    CMAKE_ARGS
+        ANDROID_STL=${ANDROID_STL}
+        ANDROID_ABI=${ANDROID_ABI}
+        ANDROID_PLATFORM=${ANDROID_PLATFORM}
+        CMAKE_ANDROID_ARCH=${CMAKE_ANDROID_ARCH}
+        QT_CMAKE=${QT_CMAKE}
+        )

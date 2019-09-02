@@ -1,5 +1,3 @@
-# Copyright (c) 2017 The Bitcoin developers
-
 cmake_minimum_required(VERSION 3.13)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
@@ -20,6 +18,13 @@ HunterGate(
 set(HUNTER_KEEP_PACKAGE_SOURCES ON)
 
 project(qzxing VERSION 0.1)
+
+hunter_add_package(zxing)  
+find_package(zxing REQUIRED)
+
+hunter_add_package(bigint)  
+find_package(bigint REQUIRED) 
+
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
@@ -52,11 +57,6 @@ find_package(Qt5Quick REQUIRED)
 find_package(Qt5Multimedia REQUIRED)
 
 endif()
-
-
-add_subdirectory(src/zxing/bigint)
-add_subdirectory(src/zxing)
-
 
 set(headers 
         src/QZXing.h
@@ -101,8 +101,8 @@ target_link_libraries(${PROJECT_NAME}
                     Qt5::Gui
                     Qt5::Multimedia
                     Qt5::Widgets
-                    zxing
-                    bigint
+                    zxing::zxing
+                    bigint::bigint
                 )
 
 
