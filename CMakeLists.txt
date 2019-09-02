@@ -136,4 +136,8 @@ configure_package_config_file(
     INSTALL_DESTINATION "${config_install_dir}"
 )
  
+
+option(BUILD_EXAMPLES "Build examples" OFF)
+if(${BUILD_EXAMPLES})
 add_subdirectory(examples)
+endif()
