@@ -152,6 +152,12 @@ install(
     FILES_MATCHING PATTERN "*.h"
 )
 
+install(
+    DIRECTORY src/
+    DESTINATION "${include_install_dir}/${PROJECT_NAME}"
+    FILES_MATCHING PATTERN "QZXing"
+)
+
 #install(FILES "${headers}" DESTINATION "${include_install_dir}/${PROJECT_NAME}")
 
 install(
